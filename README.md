@@ -6,4 +6,4 @@
 
 ## WebRTC ([PeerJS](https://peerjs.com/)) Experiments
 
-[Peer-to-peer Chat](https://meldrumjon.github.io/Peer-to-Peer-Chat/).
+- [Peer-to-peer Chat](https://meldrumjon.github.io/Peer-to-Peer-Chat/).
