@@ -1,4 +1,4 @@
-## Web Browser Board Games
+## Web-Based Board Games
 
 - [Xiangqi (Chinese Chess)](https://meldrumjon.github.io/Xiangqi/)
 - [Shogi (Japanese Chess)](https://meldrumjon.github.io/Shogi/)
