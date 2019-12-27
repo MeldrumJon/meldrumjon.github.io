@@ -1,4 +1,4 @@
-# Open Terminal Here Shortcut in macOS
+# Open Terminal Shortcut in macOS
 
 How to create a keyboard shortcut to open a new terminal at your current 
 Finder location (or your home folder, if another app is active). Like 
@@ -50,4 +50,5 @@ Save the Quick Action as "Open Terminal Shortcut".
 In System Preferences -> Keyboard -> Shortcuts under Services -> General, 
 assign add a shortcut for "Open Terminal Shortcut".  I used 
 Ctrl + Alt + Cmd + T.
+
 
