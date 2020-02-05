@@ -1,8 +1,7 @@
 # Open Terminal Shortcut in macOS
 
 How to create a keyboard shortcut to open a new terminal at your current 
-Finder location (or your home folder, if another app is active). Like 
-Ctrl+Alt+T / Alt+T in some Linux distros.
+Finder location.  Like Ctrl+Alt+T / Alt+T in some Linux distros.
 
 ## Automator App
 
@@ -29,17 +28,19 @@ Open Automator and create a new Application.  Add the following actions:
 Save the Application as "Open Terminal Shortcut.app" and place it in your 
 Applications or Utilities folder.
 
-These actions could go directly in the Automator Quick Action, but if you do 
-this, the foreground Application running when you launch the service will need 
-"access to control" System Events and Finder.  Creating a separate app means 
-you only have to grant permissions for a single app once.
+These actions could go directly in the Automator Quick Action (see below); however, 
+if you place them in the quick action, the foreground Application running 
+when you launch the service will need "access to control" System Events and 
+Finder.  That may be fine, if you only use the service while using Finder, but 
+if you launch it when any other app is open, you will need to grant these
+permissions for each new app.  It is far more convenient to create a 
+separate app and grant the permissions only once.
 
 ## Automator Quick Action
 
 ![Open Terminal Shortcut Quick Action in Automator](./QuickAction.png)
 
-With Automator, create a new Quick Action.  Simply launch
-"Open Terminal Shortcut.app".
+With Automator, create a new Quick Action.  Simply:
 
 1. Launch Application: "Open Terminal Shortcut.app"
 
@@ -48,7 +49,6 @@ Save the Quick Action as "Open Terminal Shortcut".
 ## Assigning a Keyboard Shortcut
 
 In System Preferences -> Keyboard -> Shortcuts under Services -> General, 
-assign add a shortcut for "Open Terminal Shortcut".  I used 
-Ctrl + Alt + Cmd + T.
+assign a shortcut for "Open Terminal Shortcut".  I used Ctrl + Alt + Cmd + T.
 
 
